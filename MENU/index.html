@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HOME TASTY MEAL & LUNCH</title>
+        <link rel="icon" href="Restaurant-Story-icon.png">
+        <style>
+            body{
+                background-color: seashell;
+            }
+            .food{
+                width: 430px;
+                height: 750px;
+            }
+            .info{
+                background-color: orangered;
+            }
+            input[type=text]{
+                padding: 5px;
+                background-color: whitesmoke;
+                border: 1px solid orangered;
+                padding-left: 50px;
+                margin-left: 10px;
+            }
+            input[type=tel]{
+                margin-left: 20px;
+            }
+            #name{
+                text-align: center;
+               
+            }
+            input[type=tel]{
+                padding: 5px;
+                background-color: whitesmoke;
+                border: 1px solid orangered;
+                padding-right: 50px;
+            }
+            select{
+                background-color: #f1f1f1;
+            }
+            button{
+                background-color: tomato;
+                color: white;
+                cursor: pointer;
+                margin: 10px;
+                border-radius: 12px;
+            }
+            button:hover{
+                background-color: grey;
+                color: orange;
+            }
+        </style>
+    </head>
+    <body>
+        <table align="center" cellspacing="10">
+            <form action="confirmation.html">
+            <tr>
+                <td colspan="2">
+                    <hr>
+                    <h1>
+                        <img src="restaurant-menu-icon.png" alt="menu">
+                        Amazing HTML 
+                        <img src="City-Restaurant-icon.png" alt="fork&knife">
+                        <small>(Home Tasty Meal & Lunch)</small> 
+                        Restaurant
+                        <img src="restaurant-menu-icon.png" alt="menu">
+                    </h1>
+                    <hr>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <h2>"Some Tasty"<ins>Menu</ins></h2>
+                    <br>
+                    
+                    <p><b>Items</b></p>
+
+                    <hr>
+                </td>
+                <td rowspan="10">
+                    <img src="menu.png" alt="food" class="food">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <ol type="I">
+                        <li>Boiled Potatos</li>
+                        <li>Vegetable salad</li>
+                        <li>Hot drinks</li>
+                    </ol>
+                    <hr>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <p>
+                        price: <b>500CU</b>
+                    </p>
+                    <hr>
+                </td>
+            </tr>
+            <tr>
+                <td class="info">
+                    <h3 align="left" >Order Information</h3>
+                </td>
+            </tr>
+            <tr>
+                <td id="name">
+                    Your Fullname <input type="text" size="31"/>
+                    <br>
+                    <br>
+                    Your Phone Number <input type="tel" placeholder="+373-12345678" size="12"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td bgcolor="orange" height="15"></td>
+            </tr>
+
+            <tr>
+                <td align="center">
+                   <b> Your Address </b>
+                   <br>
+                   <br>
+                   <select>
+                       <option value="--Choose Street--">--Choose Street--</option>
+                       <option value="Sos.Muncesti">Sos.Muncesti</option>
+                   </select>
+                   home/apart. No 
+                   <input 
+                   type="number" 
+                   min="1" 
+                   max="100"
+                   />
+                   <br>
+                   <br>
+                   Deliver at <input type="time"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td bgcolor="orange" height="15"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <p align="right">
+                        I agree with <a href="terms.html">terms & conditions</a> of this service <input type="checkbox" required>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <button>
+                        ORDER NOW
+                        <img src="Food-Delivery-Food-icon.png" alt="delivery" />
+                    </button>
+                </td>
+            </tr>
+            </form>
+            <tr>
+                <td align="center" colspan="2">
+                    <hr>
+                    <p>
+                        <small>HTML Restaurant &copy 2019 | need help? call us: <a href="">+123456789</a></small>
+                    </p>
+                    <hr>
+                </td>
+            </tr>
+        </table>
+        
+    </body>
+</html>
